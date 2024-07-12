@@ -1,5 +1,7 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Todos from './components/Todos/Todos';
 
 function App() {
   return (
@@ -17,7 +19,11 @@ function App() {
         >
           Learn React
         </a>
+        <div>welcome to reactjs</div>
+        <h2>This is new title</h2>
+        <Todos title='Todos with Pau En Piang'/>
       </header>
+        
     </div>
   );
 }

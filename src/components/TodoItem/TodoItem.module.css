@@ -1,0 +1,17 @@
+.todoitem {
+    background: pink;
+    list-style: none;
+    color: black;
+    margin: 1rem;
+    padding: 1em;
+    border-radius: 1rem;
+    font-size: 20px
+}
+
+.crossX {
+    background: rgb(255, 25, 25);
+    color: #fff;
+    border-radius: 50%;
+    float: right;
+    border: 1px;
+}
